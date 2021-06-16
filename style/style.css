@@ -88,6 +88,7 @@ aside {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding: 10px;
 }
 
 aside a {
@@ -100,6 +101,12 @@ aside a {
 
 aside a:hover {
   background: #7d4cd6;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    font-size: 1.5rem;
+  }
 }
 
 body {
