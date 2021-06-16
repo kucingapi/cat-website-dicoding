@@ -1,0 +1,7 @@
+@import './container-function';
+@import './color-pallete';
+
+footer{
+	@include long-container();
+	min-height: 200px;
+}

@@ -103,10 +103,25 @@ aside a:hover {
   background: #7d4cd6;
 }
 
+.button-func {
+  font-weight: 800;
+  color: #cccccc;
+  padding: 10px;
+  background: #7d4cd6;
+  border: none;
+}
+
 @media only screen and (max-width: 600px) {
   main {
     font-size: 1.5rem;
   }
+}
+
+footer {
+  top: 0;
+  width: 100%;
+  background: #1a1a1a;
+  min-height: 200px;
 }
 
 body {

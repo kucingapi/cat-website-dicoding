@@ -1,0 +1,11 @@
+@mixin long-container {
+	top:0;
+	width: 100%;
+	background: $navbar-color;
+}
+
+@mixin item-column{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
