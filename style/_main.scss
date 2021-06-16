@@ -1,0 +1,26 @@
+@import './color-pallete';
+
+
+main{
+	margin: 5rem 2rem;
+	font-size: 2rem;
+	display: flex;
+	flex-direction: row;
+}
+
+#content{
+	flex:3;
+}
+
+aside{
+	background: $navbar-color;
+	flex:1;
+	a{
+		display: flex;
+		transition: 300ms;
+	}
+	a:hover{
+		background: $primary-color;
+	}
+	
+}

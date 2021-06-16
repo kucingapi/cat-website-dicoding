@@ -1,0 +1,12 @@
+@import './color-pallete';
+@import './navbar';
+@import './main';
+body{
+	color: $text-color;
+	background: $background-color;
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+	margin: 0;
+}
